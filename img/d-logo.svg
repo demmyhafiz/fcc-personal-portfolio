@@ -1,25 +1,8 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Demmy Hafiz Janitra portfolio">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="favicon.png">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <title>Hello, world!</title>
-  </head>
-
-  <body>
-    <nav class="navbar navbar-expand navbar-light bg-white nav-shadow">
-      <a class="navbar-brand" href="#">
-      <svg class="d-logo" version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="50" height="auto" viewBox="0 0 1280.000000 1110.000000"
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="1280.000000pt" height="1110.000000pt" viewBox="0 0 1280.000000 1110.000000"
  preserveAspectRatio="xMidYMid meet">
 <metadata>
 Created by potrace 1.15, written by Peter Selinger 2001-2017
@@ -64,27 +47,4 @@ c786 -627 1350 -1466 1580 -2350 172 -664 147 -1444 -66 -2028 -289 -791 -937
 -186 -20 -553 -22 -694 -5 -107 14 -269 45 -323 62 l-32 11 42 35 c81 68 254
 176 383 239 221 107 477 183 735 219 142 19 655 14 820 -9z"/>
 </g>
-      </svg></a>
-    <div class="collapse navbar-collapse justify-content-end">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="">Work</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
-            </li>
-          </ul>
-    </div>
-    </nav>
-
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
+</svg>
