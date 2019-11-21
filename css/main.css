@@ -11,3 +11,7 @@
 .hero-title {
   height: 100vh;
 }
+
+.pad-fix {
+  padding-top: 4.375rem;
+}
