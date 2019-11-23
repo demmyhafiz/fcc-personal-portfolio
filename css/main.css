@@ -15,3 +15,8 @@
 .pad-fix {
   padding-top: 4.375rem;
 }
+
+.bg-grd {
+	background-image: radial-gradient( circle farthest-corner at 50.1% 50.3%,  rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100.2% );
+	/*background-color: radial-gradient( circle farthest-corner at 50.1% 50.3%,  rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100.2% ); */
+}
