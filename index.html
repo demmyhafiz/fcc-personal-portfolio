@@ -14,10 +14,28 @@
   <!-- Main CSS -->
   <link rel="stylesheet" href="css/main.css">
   <title>Hello, world!</title>
+
+  <style>
+    .eq-w {
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    @media (min-width: 768px) {
+      .eq-w {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+
+  </style>
 </head>
 
 <body class="bg-grd">
-  <nav class="navbar fixed-top navbar-expand bg-white nav-shadow">
+  <nav id="navbar" class="navbar fixed-top navbar-expand bg-white nav-shadow">
     <a class="navbar-brand" href="#">
       <svg class="d-logo" version="1.0" xmlns="http://www.w3.org/2000/svg" width="50" height="auto"
         viewBox="0 0 1280.000000 1110.000000" preserveAspectRatio="xMidYMid meet">
@@ -67,19 +85,19 @@ c786 -627 1350 -1466 1580 -2350 172 -664 147 -1444 -66 -2028 -289 -791 -937
     <div class="collapse navbar-collapse justify-content-end">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link text-dark" href="">About</a>
+          <a class="nav-link text-dark" href="#welcome-section">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="">Work</a>
+          <a class="nav-link text-dark" href="#project">Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="">Contact</a>
+          <a class="nav-link text-dark" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="d-flex justify-content-center align-items-center vh-100 hero-bg hero-shadow">
+  <div id="welcome-section" class="d-flex justify-content-center align-items-center vh-100 hero-bg hero-shadow">
     <div class="text-white text-center">
 
       <h1 class="display-4">Damn me?</h1>
@@ -87,29 +105,29 @@ c786 -627 1350 -1466 1580 -2350 172 -664 147 -1444 -66 -2028 -289 -791 -937
     </div>
   </div>
 
-  <div class="container text-center">
+  <div class="container text-center my-5">
     <h2>Here's my latest work</h2>
   </div>
 
-  <div class="container py-3">
+  <div id="projects" class="container py-3">
     <div class="row align-items-end py-3">
       <div class="col-12 col-md-6">
-        <div class="card">
+        <div class="card project-tile">
           <img src="img/project-1.jpg" alt="image 1" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">This is my first project.</h5>
             <p class="card-text">The first project I build is a Tribute Page</p>
-            <a href="" class="btn btn-primary">Take a look!</a>
+            <a href="https://demmyhafiz.github.io/fcc-tribute-page" class="btn btn-primary">Take a look!</a>
           </div>
         </div>
       </div>
       <div class="col-12 col-md-6">
-        <div class="card">
+        <div class="card project-tile">
           <img src="img/project-2.jpg" alt="image 2" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">This is my second project.</h5>
             <p class="card-text">The first project I build is a Survey Form</p>
-            <a href="" class="btn btn-primary">Take a look!</a>
+            <a href="https://demmyhafiz.github.io/fcc-survey-form" class="btn btn-primary">Take a look!</a>
           </div>
         </div>
       </div>
@@ -117,28 +135,58 @@ c786 -627 1350 -1466 1580 -2350 172 -664 147 -1444 -66 -2028 -289 -791 -937
     </div>
     <div class="row align-items-end py-3">
       <div class="col-md col-md-6">
-        <div class="card">
+        <div class="card project-tile">
           <img src="img/project-3.jpg" alt="image 3" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">This is my third project.</h5>
             <p class="card-text">The first project I build is a Tribute Page</p>
-            <a href="" class="btn btn-primary">Take a look!</a>
+            <a href="https://demmyhafiz.github.io/fcc-product-page" class="btn btn-primary">Take a look!</a>
           </div>
         </div>
       </div>
       <div class="col-md col-md-6">
-        <div class="card">
+        <div class="card project-tile">
           <img src="img/project-4.jpg" alt="image 4" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">This is my fourth project.</h5>
             <p class="card-text">The first project I build is a Survey Form</p>
-            <a href="" class="btn btn-primary">Take a look!</a>
+            <a href="https://demmyhafiz.github.io/fcc-technical-doc/" class="btn btn-primary">Take a look!</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <div class="container-fluid">
+    <div class="py-3 text-center">
+      <h3>Reach me out here!</h3>
+    </div>
+    <div class="container my-3">
+      <div class="row">
+        <div class="col eq-w text-center"><a href="#">Email</a></div>
+        <div class="col eq-w text-center"><a href="#">Instagram</a></div>
+      </div>
+        <div class="row">
+          <div class="col eq-w text-center"><a id="profile-link" href="https://github.com/demmyhafiz"
+              target="_blank">Github</a></div>
+          <div class="col eq-w text-center"><a href="#">freecodecamp</a></div>
+        </div>
+      </div>
+    </div>
+
+
+  <footer id="contact" class="container-fluid mt-5">
+    <div class="row">
+      <div class="col">
+        <p class="font-weight-light" style="margin-bottom: 0;">Powered by HTML, CSS, Bootstrap</p>
+      </div>
+      <div class="col text-right">
+        <p class="font-weight-light" style="margin-bottom: 0;">All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 
 </html>
