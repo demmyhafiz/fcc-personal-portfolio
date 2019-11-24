@@ -20,3 +20,12 @@
 	background-image: radial-gradient( circle farthest-corner at 50.1% 50.3%,  rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100.2% );
 	/*background-color: radial-gradient( circle farthest-corner at 50.1% 50.3%,  rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100.2% ); */
 }
+
+.hero-bg {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.hero-shadow {
+  -webkit-box-shadow: 0px 2px 2px 1px rgb(67, 67, 67); 
+  box-shadow: 0px 2px 2px 1px rgb(67, 67, 67);
+}
